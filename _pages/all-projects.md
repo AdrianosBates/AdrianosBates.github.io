@@ -4,5 +4,5 @@ layout: collection
 collection: portfolio
 entries_layout: grid
 classes: wide
-permalink: /all-projects/
+permalink: /portfolio/
 ---
