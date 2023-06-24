@@ -269,7 +269,7 @@ tag_archive:
 #     tag: /tags/:name/
 
 collections:
-  portfolio:
+  all-projects:
     output: true
     permalink: /:collection/:path/
 

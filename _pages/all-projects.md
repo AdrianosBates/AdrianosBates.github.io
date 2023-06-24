@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: collection
-collection: portfolio
+collection: all-projects
 entries_layout: grid
 classes: wide
 permalink: /all-projects/
