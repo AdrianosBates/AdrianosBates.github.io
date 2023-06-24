@@ -10,6 +10,9 @@
 </head> -->
 
 <!-- <body> -->
+<link rel="shortcut icon" href="{{site.baseurl}}/assets/unity/{{page.unity_dir}}/TemplateData/favicon.ico">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/unity/{{page.unity_dir}}/TemplateData/style.css">
+
 <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-loading-bar">
@@ -89,7 +92,7 @@
 
         // To lower canvas resolution on mobile devices to gain some
         // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
+        config.devicePixelRatio = 1;
 
         unityShowBanner('WebGL builds are not supported on mobile devices.');
     } else {
