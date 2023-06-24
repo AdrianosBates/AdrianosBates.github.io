@@ -306,6 +306,6 @@ defaults:
       path: ""
       type: all-projects
     values:
-      layout: single
+      layout: default
       author_profile: false
       share: true
