@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Works by Adrian Bates"
+title                    : "Projects and Stuff"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "by Adrian Bates"
 name                     : "Adrian Bates"
 description              : "A collection of things from someone who has too many hobbies."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://adrianosbates.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "adrianosbates/adrianosbates.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -105,29 +105,38 @@ analytics:
 # Site Author
 author:
   name             : "Adrian Bates"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  avatar           : "/assets/img/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Someone who has too many hobbies."
   location         : "Maine, USA"
-  email            :
+  email            : #"adrian.ms.bates@gmail.com"
   links:
-    - label: "Email"
+    - label: "Email me"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
+      url: "mailto:adrian.ms.bates@gmail.com"
+
+    - label: "Buy me a coffee"
+      icon: "fas fa-fw fa-coffee"
+      url: "https://ko-fi.com/adrianosbates"
+
+    - label: "Hire me"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adrian-bates-653b25256/"
+    
+    - label: "Check out my 3D designs"
+      icon: "fas fa-fw fa-cubes"
+      url: "https://thingiverse.com/adrianbates"
+
+    - label: "Treat yourself"
+      icon: "fas fa-fw fa-gift"
+      url: "https://etsy.com/shop/ResinatingWNature"
+
+    - label: "Yes, I know git"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/AdrianosBates"
+
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
