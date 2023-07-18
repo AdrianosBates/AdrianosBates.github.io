@@ -1,0 +1,22 @@
+<body>
+    <ul id="feed"></ul>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://rss.indeed.com/rss?q=Junior%20Software%20Engineer&l=USA&start=20");
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.withCredentials = true;
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                var feed = JSON.parse(xhr.responseText);
+                for (var item of feed.items) {
+                    var li = document.createElement("li");
+                    li.textContent = item.title;
+                    $("#feed").append(li);
+                }
+            } else {
+                console.log("Error loading RSS feed: " + xhr.status);
+            }
+        };
+        xhr.send();
+    </script>
+</body>

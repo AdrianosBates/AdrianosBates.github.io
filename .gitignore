@@ -27,3 +27,8 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# For webpack setup
+assets/bundle.js
+node_modules
+
