@@ -12,5 +12,5 @@ excerpt: "This site is for my personal projects worth posting, come check out my
 
 ### Welcome
 This is my site, which I intend to use as a sort of portfolio. A place that anyone can check out my past, current, and potential projects and ideas. My first example being a quick game I created in Unity that I'm dubbing "[Just For Fun]({% link _all-projects/just-for-fun.md %})" that required me to write a couple systems and algorithms from scratch (as much as anyone can write anything from scratch in an engine so complete as Unity). 
-<br>
+<br><br>
 I plan to continue work on this project as time goes on, and I plan to release it as an Android app in the future.

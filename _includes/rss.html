@@ -1,22 +1,27 @@
+<script></script>
+
 <body>
     <ul id="feed"></ul>
+    <!-- <iframe src=""></iframe> -->
     <script>
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://rss.indeed.com/rss?q=Junior%20Software%20Engineer&l=USA&start=20");
-        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-        xhr.withCredentials = true;
-        xhr.onload = function () {
-            if (xhr.status === 200) {
-                var feed = JSON.parse(xhr.responseText);
-                for (var item of feed.items) {
-                    var li = document.createElement("li");
-                    li.textContent = item.title;
-                    $("#feed").append(li);
-                }
-            } else {
-                console.log("Error loading RSS feed: " + xhr.status);
-            }
-        };
-        xhr.send();
+        var iframe = document.createElement('iframe');
+        iframe.src = "https://rss.indeed.com/rss?q=Junior%20Software%20Engineer&l=USA&start=20";
+        iframe.id = "rss_feed"
+        document.body.appendChild(iframe);
+
+        window.addEventListener('load', function () {
+            var raw_rss_body = document.getElementById('rss_feed').contentWindow.document.body
+            console.log(raw_rss_body);
+        })
+
+
+
+        // var feed = JSON.parse(xhr.responseText);
+        // for (var item of feed.items) {
+        //     var li = document.createElement("li");
+        //     li.textContent = item.title;
+        //     $("#feed").append(li);
+        // }
+
     </script>
 </body>

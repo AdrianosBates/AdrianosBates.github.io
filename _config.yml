@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Projects and Stuff"
+title                    : "Thoughts and Portfolio"
 title_separator          : "-"
 subtitle                 : "by Adrian Bates"
 name                     : "Adrian Bates"
-description              : "A collection of things from someone who has too many hobbies."
+description              : "A collection of thoughts and projects by Adrian Bates."
 url                      : "https://adrianosbates.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "adrianosbates/adrianosbates.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,11 +106,11 @@ analytics:
 author:
   name             : "Adrian Bates"
   avatar           : "/assets/img/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Someone who has too many hobbies."
+  bio              : "Jack of all trades (master of none...)"
   location         : "Maine, USA"
   email            : #"adrian.ms.bates@gmail.com"
   links:
-    - label: "Email me"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:adrian.ms.bates@gmail.com"
 
@@ -118,19 +118,19 @@ author:
       icon: "fas fa-fw fa-coffee"
       url: "https://ko-fi.com/adrianosbates"
 
-    - label: "Hire me"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/adrian-bates-653b25256/"
     
-    - label: "Check out my 3D designs"
+    - label: "Thingiverse"
       icon: "fas fa-fw fa-cubes"
       url: "https://thingiverse.com/adrianbates"
 
-    - label: "Treat yourself"
+    - label: "Buy from my small business"
       icon: "fas fa-fw fa-gift"
       url: "https://etsy.com/shop/ResinatingWNature"
 
-    - label: "Yes, I know git"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AdrianosBates"
 
@@ -226,7 +226,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /blog/:categories/:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
