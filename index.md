@@ -1,30 +1,34 @@
 ---
 layout: single
-title: Hello!
+title: ""
 author_profile: true
 ---
 
-And welcome to my personal site. If you've found yourself here, you're likely a potential employer who got this
-link from my resume. So let me tell you a little about myself, or you can get right into my projects using the navbar up top.
+## Welcome to My World of Code
 
+Hello potential employer! If you're here from my resume, thanks for stopping by. I'm Adrian Bates, a computer science enthusiast with over a decade of hands-on experience. At 14, I built my first computer, sparking a journey that has evolved into a robust skill set.
 
 ![My PC]({{ site.baseurl }}/assets/img/my-pc.jpg "My PC"){: style="float:right; width:50%; height:50%; padding: 25px"}
 
-My name is Adrian Bates, and I'm a long time computer science enthusiast. I first began my journey in computer
-science when I built my first computer at age 14, over ten years ago (as of 2023). These days [my computer]({{ site.baseurl }}{% link _posts/2023-09-23-my-pc.md %}) has
-gotten a bit more advanced.
+# Educational Excellence
+I'm not just passionate about code; I've backed it up with a solid education. I spent four years at Southern New Hampshire University, earning my Bachelor's degree in computer science with a perfect 4.0 GPA. Never missing an assignment, my dedication to excellence extends beyond lines of code.
 
-Playing PC games and experimenting with programming in C++ and Java sparked a passion for computer science that I've
-held ever since. One of my primary hobbies during the last ten years has been programming, mainly programming video game
-prototypes
-using whatever software was popular at the time. Beginning with JWJGL in Java, and eventually moving to more mature
-game engines with Unity. While my hobbyist programming experience is limited to video game development, I consider
-myself a programmer first and foremost. For me, video games are simply an excellent medium for me to solve problems
-using code, and visually see the progress I'm make. I also tend towards prototyping games that involve more than simply scripting simple objectives in a linear video game. For example, in "[Just For Fun]({% link _all-projects/just-for-fun.md %})" (which is a content-less clone of an old web-browser game called Q), I most enjoyed the time spent on creating the [algorithm for procedurally generating a mesh given a line segment](https://github.com/AdrianosBates/JustForFun/blob/main/Assets/LineToMesh.cs).
+# Passion for Programming
+My love for computer science ignited through gaming and C++/Java experimentation. Over the last decade, I've been immersed in programming, particularly in video game development. From JWJGL in Java to Unity, my journey reflects a commitment to problem-solving through code. Not just a gamer, I consider myself a dedicated programmer who finds joy in crafting solutions and witnessing progress.
 
 ![LineToMesh.cs]({{ site.baseurl }}/assets/img/line-to-mesh.jpg "LineToMesh.cs"){: style="style:block; margin-left:auto; margin-right:auto;"}
 
-My programming experience is not limited to scripting video games, however. I like to think of myself as being very adaptable, depending on whatever project I may be currently working on. For example, setting up and maintaining this website using Jekyll and an accompanying theme involved learning several new styles of programming and the structure of how this particular site is generated. Given adequate documentation and direction, I believe that I could work well in any number of new programming environments.
+# Beyond Video Games
+While my roots are in video game prototypes, my programming prowess extends beyond. I'm adaptable, delving into various projects. For instance, the creation of this website and the website for my [small business](https://ResinatingWithNature.com) using Jekyll and a customized theme involved mastering new programming styles and understanding site structure. I thrive in diverse programming environments, always eager to learn and contribute.
 
-For now this is all, but there is more to come for this website...
+# Crafting in 3D
+Beyond the digital realm, I immerse myself in the world of 3D printing and modeling. Proficient in programs such as Blender and OpenSCAD, I've translated my passion into a tangible business aspect. A fundamental part of my entrepreneurial journey involves selling 3D printed keycaps, showcasing the fusion of creativity and technology.
 
+# Ready for New Challenges
+Beyond video games and website development, I'm poised for fresh challenges. With a foundation in adaptability and a passion for problem-solving, I believe I can seamlessly integrate into any project with the right documentation and guidance.
+
+If you're interested in my projects, feel free to explore using the navbar above. Let's connect and explore the exciting possibilities ahead.
+
+Cheers,
+<br>
+Adrian Bates

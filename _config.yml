@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Thoughts and Portfolio"
+title                    : "Portfolio"
 title_separator          : "-"
 subtitle                 : "by Adrian Bates"
 name                     : "Adrian Bates"
-description              : "A collection of thoughts and projects by Adrian Bates."
+description              : "A collection of projects by Adrian Bates."
 url                      : "https://adrianosbates.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "adrianosbates/adrianosbates.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Adrian Bates"
   avatar           : "/assets/img/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Jack of all trades (master of none...)"
+  bio              : "some 26 year-old guy on the internet"
   location         : "Maine, USA"
   email            : #"adrian.ms.bates@gmail.com"
   links:
@@ -128,7 +128,7 @@ author:
 
     - label: "Buy from my small business"
       icon: "fas fa-fw fa-gift"
-      url: "https://etsy.com/shop/ResinatingWNature"
+      url: "https://ResinatingWithNature.com"
 
     - label: "Github"
       icon: "fab fa-fw fa-github"
