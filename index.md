@@ -16,8 +16,6 @@ I'm not just passionate about code; I've backed it up with a solid education. I 
 # Passion for Programming
 My love for computer science ignited through gaming and C++/Java experimentation. Over the last decade, I've been immersed in programming, particularly in video game development. From JWJGL in Java to Unity, my journey reflects a commitment to problem-solving through code. Not just a gamer, I consider myself a dedicated programmer who finds joy in crafting solutions and witnessing progress.
 
-![LineToMesh.cs]({{ site.baseurl }}/assets/img/line-to-mesh.jpg "LineToMesh.cs"){: style="style:block; margin-left:auto; margin-right:auto;"}
-
 # Beyond Video Games
 While my roots are in video game prototypes, my programming prowess extends beyond. I'm adaptable, delving into various projects. For instance, the creation of this website and the website for my [small business](https://ResinatingWithNature.com) using Jekyll and a customized theme involved mastering new programming styles and understanding site structure. I thrive in diverse programming environments, always eager to learn and contribute.
 
