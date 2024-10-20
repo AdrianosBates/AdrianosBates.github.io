@@ -1,5 +1,5 @@
 ---
-title: Projects
+title:
 layout: collection
 collection: all-projects
 entries_layout: grid

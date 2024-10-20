@@ -1,9 +1,10 @@
 # main links
 main:
-  - title: "Blog"
-    url: /blog/
-  - title: "All Projects"
+  - title: "About"
+    url: /
+  - title: "Projects"
     url: /all-projects/
+    
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

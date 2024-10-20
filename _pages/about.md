@@ -1,9 +1,10 @@
 ---
 layout: single
+permalink: /about/
 author_profile: true
 ---
 
-Hello! If you're here from my resume, thanks for stopping by. I'm Adrian Bates, a computer science enthusiast with over a decade of hands-on experience.
+Hello! If you're here from my resume, thanks for stopping by. I'm Adrian Bates, a computer science enthusiast with over a decade of hands-on experience. At 14, I built my first computer, sparking a journey that has evolved into a robust skill set.
 
 ![My PC]({{ site.baseurl }}/assets/img/my-pc.jpg "My PC"){: style="float:right; width:50%; height:50%; padding: 25px"}
 

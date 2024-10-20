@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Portfolio"
+title                    : "\"What do you do?\""
 title_separator          : "-"
 subtitle                 : "by Adrian Bates"
 name                     : "Adrian Bates"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Adrian Bates"
   avatar           : "/assets/img/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "some 26 year-old guy on the internet"
+  bio              : "Business co-founder, B.S. Computer Science 2023, 27 years old, person, other things"
   location         : "Maine, USA"
   email            : #"adrian.ms.bates@gmail.com"
   links:
@@ -126,7 +126,7 @@ author:
       icon: "fas fa-fw fa-cubes"
       url: "https://thingiverse.com/adrianbates"
 
-    - label: "Buy from my small business"
+    - label: "Resinating With Nature"
       icon: "fas fa-fw fa-gift"
       url: "https://ResinatingWithNature.com"
 
