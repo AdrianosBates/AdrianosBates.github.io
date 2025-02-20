@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "\"What do you do?\""
+title                    : "\"About Me\""
 title_separator          : "-"
 subtitle                 : "by Adrian Bates"
 name                     : "Adrian Bates"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Adrian Bates"
-  avatar           : "/assets/img/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/avatar-real.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Business co-founder, B.S. Computer Science 2023, 27 years old, person, other things"
   location         : "Maine, USA"
   email            : #"adrian.ms.bates@gmail.com"
